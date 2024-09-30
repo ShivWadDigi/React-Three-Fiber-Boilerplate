@@ -1,5 +1,7 @@
 {
   "hammer": "./models/hammer.glb",
   "drill": "./models/drill.glb",
-  "tapeMeasure": "./models/tapeMeasure.glb"
+  "tapeMeasure": "./models/tapeMeasure.glb",
+  "batteryGlb" : "./models/batteryGlb.glb",
+  "boxes" : "./models/Boxxx.glb"
 }

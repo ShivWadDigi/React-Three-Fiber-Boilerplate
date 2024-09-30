@@ -20,18 +20,39 @@ body,
   font-family: var(--leva-fonts-mono);
 }
 
+
 .annotation {
   transform: translate3d(calc(50%), calc(-50%), 0);
   text-align: left;
-  background: #181c20;
-  color: #8c92a4;
+  background: white;
+  color: black;
   padding: 10px 15px;
   border-radius: 5px;
   user-select: none;
   font-family: var(--leva-fonts-mono);
 }
 
-.annotation::before {
+.annotation.hide {
+  opacity: 0;
+}
+
+.annotation.show {
+  opacity: 1;
+}
+
+
+.annotation-toggle {
+  transform: translate3d(calc(50%), calc(-50%), 0);
+  height: 50px;
+  width: 50px;
+  border: 1px solid rgb(168, 158, 158);
+  background-color: #ee8e8e;
+  border-radius: 50%;
+  color: white;
+}
+
+
+/* .annotation::before {
   content: "";
   position: absolute;
   top: 20px;
@@ -39,4 +60,4 @@ body,
   height: 2px;
   width: 30px;
   background: #181c20;
-}
+} */
